@@ -60,3 +60,5 @@ Route::group(['prefix' => 'cw-admin', 'middleware' => 'CheckAdmin'], function() 
 
 // vuejs 
 Route::get('/','Template\HomeController@index');
+Route::get('/post/','Template\HomeController@index');
+Route::get('/{slug}','Template\HomeController@detail');

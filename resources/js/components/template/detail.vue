@@ -1,4 +1,13 @@
 <template>
+	<div class="container">
+		<h1>{{posts.post_title}}</h1>
+		<p>
+			{{posts.post_detail}}
+		</p>
+	</div>
+</template>
+
+<template>
 	<div>
 		<h2>Home</h2>
 		<div class="card card-body" v-for="article in articles" v-bind:key="article.id">
@@ -27,23 +36,14 @@
 				edit:false
 			}
 		},
-
 		created(){
 			this.fetchArticles();
 		}, 
-
-		methods: {
-			fetchArticles() {
-				fetch('api/home')
-				.then(res => res.json())
-				.then(res => {
-					//console.log(res.data);
-					this.articles = res.data;
-					vm.makePagination(res.meta, res.link);
-				})
-				.catch(err => console.log(err));
-			}
-		}
+		mounted () {
+	    axios
+	      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
+	      .then(response => (this.info = response))
+	  }
 	}
 </script>
 

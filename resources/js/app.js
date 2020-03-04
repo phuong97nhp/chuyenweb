@@ -19,11 +19,9 @@
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-//import {routes} from './routes';
+import Routes from './routes';
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('home-component', require('./components/HomeComponent.vue').default);
-Vue.component('articles-component', require('./components/ArticlesComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -31,17 +29,7 @@ Vue.component('articles-component', require('./components/ArticlesComponent.vue'
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-/* const Foo = { template: '<div>foo</div>' }
- const Bar = { template: '<div>bar</div>' }
 
- const routes = [
- { path: '/foo', component: Foo },
- { path: '/bar', component: Bar }
- ]
-
- const router = new VueRouter({
-  routes // short for `routes: routes`
-})*/
 
  const app = new Vue({
  	el: '#app',

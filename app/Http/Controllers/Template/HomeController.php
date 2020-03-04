@@ -15,7 +15,15 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('Template.Home');
+        return view('template.home');
+    }
+
+    public function detail(Request $request)
+    {
+        $data = Posts::select('post_title', 'post_img', 'post_slug', 'post_status', 'post_createdby', 'post_catid', 'post_metakey', 'created_at', 'post_detail')->where('post_slug', $request->slug)->get();
+        return response()->json([
+            'posts'=>$data
+        ],200);
     }
 
     /**
