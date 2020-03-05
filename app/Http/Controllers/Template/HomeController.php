@@ -20,9 +20,9 @@ class HomeController extends Controller
 
     public function detail(Request $request)
     {
-        $data = Posts::select('post_title', 'post_img', 'post_slug', 'post_status', 'post_createdby', 'post_catid', 'post_metakey', 'created_at', 'post_detail')->where('post_slug', $request->slug)->get();
+        $data = Posts::select('post_title', 'post_img', 'post_slug', 'post_status', 'post_createdby', 'post_catid', 'post_metakey', 'created_at', 'post_detail')->where('post_slug', $request->slug)->first();
         return response()->json([
-            'posts'=>$data
+            'post'=>$data
         ],200);
     }
 

@@ -3,8 +3,12 @@
     <section class="blog-post style-three pad-100">
       <div class="container">
         <div class="row">
-          <h1><a v-bind:href="link">{{title}}</a></h1>
-          </div>
+          
+          
+          <h1>
+            <router-link :to="url()">{{title}}</router-link>
+          </h1>
+        </div>
       </div>
     </section>
   </div>
@@ -13,10 +17,16 @@
 <script>
 export default {
   name: "ViewHome",
-  components: {},
-  data: {
-    title: "Chuyển hướng trang",
-    link: "bai-viet"
+  data: function() {
+    return {
+      title: "Chuyển hướng trang", 
+      link: "bai-viet"
+    };
+  },
+  methods: {
+    url: function(){
+      return ''+this.link
+    }
   }
 };
 </script>

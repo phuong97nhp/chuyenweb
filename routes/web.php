@@ -11,7 +11,6 @@
 |
 */
 
-
 // handding login
 Route::group(['prefix' => 'cw-admin', 'middleware' => 'CheckLogin'], function(){
     Route::get('/dang-nhap', 'CWadmin\LoginController@index')->name('login');
@@ -58,7 +57,10 @@ Route::group(['prefix' => 'cw-admin', 'middleware' => 'CheckAdmin'], function() 
 });
 
 
-// vuejs 
+// vuejs get data
 Route::get('/','Template\HomeController@index');
 Route::get('/post/','Template\HomeController@index');
-Route::get('/{slug}','Template\HomeController@detail');
+Route::get('/post/{slug}','Template\HomeController@detail');
+
+// bất kì đường đẫn nào cũng vào đây
+Route::get('/{any}', 'Template\HomeController@index')->where('any', '.*');
