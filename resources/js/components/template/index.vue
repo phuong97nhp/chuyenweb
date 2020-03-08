@@ -26,6 +26,9 @@ export default {
       edit: false
     };
   },
+  metaInfo: {
+    title : 'Bài Viết'
+  },
   created() {
     this.fetchArticles();
   },
@@ -34,9 +37,7 @@ export default {
       fetch("api/home")
         .then(res => res.json())
         .then(res => {
-          //console.log(res.data);
           this.articles = res.data;
-          vm.makePagination(res.meta, res.link);
         })
         .catch(err => console.log(err));
     }

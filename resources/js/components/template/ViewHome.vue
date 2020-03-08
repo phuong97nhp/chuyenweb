@@ -1,5 +1,9 @@
 <template>
   <div>
+
+
+
+
     <section class="blog-post style-three pad-100">
       <div class="container">
         <div class="row">
@@ -11,6 +15,8 @@
         </div>
       </div>
     </section>
+
+    
   </div>
 </template>
 
@@ -22,6 +28,9 @@ export default {
       title: "Chuyển hướng trang", 
       link: "bai-viet"
     };
+  },
+  metaInfo: {
+    title : 'Trang chủ'
   },
   methods: {
     url: function(){

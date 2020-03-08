@@ -64,3 +64,4 @@ Route::get('/post/{slug}','Template\HomeController@detail');
 
 // bất kì đường đẫn nào cũng vào đây
 Route::get('/{any}', 'Template\HomeController@index')->where('any', '.*');
+

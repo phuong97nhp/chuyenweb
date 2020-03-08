@@ -19,14 +19,15 @@ export default {
   created() {
     this.fetchArticles();
   },
+  metaInfo: {
+    title : 'Bài Viết'
+  },
   methods: {
     fetchArticles() {
       fetch("/post/" + this.$route.params.slug)
         .then(res => res.json())
         .then(res => {
 		  this.post = res.post;
-		  
-		console.log(this.$route.path);
 		})
         .catch(err => console.log(err));
     }
