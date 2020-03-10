@@ -1955,20 +1955,240 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "ViewHome",
   data: function data() {
     return {
-      title: "Chuyển hướng trang",
+      title: "Giới thiệu về chuyen WEB",
       link: "bai-viet"
     };
   },
   metaInfo: {
-    title: 'Trang chủ'
+    title: "Trang chủ"
   },
   methods: {
     url: function url() {
-      return '' + this.link;
+      return "" + this.link;
     }
   }
 });
@@ -19760,24 +19980,401 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("section", { staticClass: "blog-post style-three pad-100" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "row" }, [
+    _c("section", { staticClass: "container-fluid" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
           _c(
-            "h1",
+            "h2",
             [
               _c("router-link", { attrs: { to: _vm.url() } }, [
                 _vm._v(_vm._s(_vm.title))
               ])
             ],
             1
-          )
+          ),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "\n          Danh mục bài viết Danh mục bài viết Danh mục bài viết Danh mục bài\n          viếtDanh mục bài viết Danh mục bài viết Danh mục bài viết Danh mục bà\n          i viếtDanh mục bài viết Danh mục bài viết Danh mục bài viết Danh mục bài\n          viếtDanh mục bài viết Danh mục bài viết Danh mục bài viết Danh mục bài\n          viếtDanh mục bài viết Danh mục bài viết Danh mục bài viết Danh mục bài v\n          iếtDanh mục bài viết Danh mục bài viết Danh mục bài viết Danh mục bài vi\n          ếtDanh mục bài viết Danh mục bài viết Danh mục bài viết Danh mục bài viết\n        "
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ]),
+    _vm._v(" "),
+    _vm._m(1),
+    _vm._v(" "),
+    _vm._m(2),
+    _vm._v(" "),
+    _vm._m(3)
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-5" }, [
+      _c("img", {
+        attrs: {
+          width: "100%",
+          src:
+            "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+          alt: ""
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "container-fluid" }, [
+      _c("h2", { staticClass: "title-menu" }, [_c("i", [_vm._v("Công nghệ")])]),
+      _vm._v(" "),
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-3" }, [
+            _c("img", {
+              attrs: {
+                width: "100%",
+                src:
+                  "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+                alt: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-3" }, [
+            _c("img", {
+              attrs: {
+                width: "100%",
+                src:
+                  "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+                alt: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-3" }, [
+            _c("img", {
+              attrs: {
+                width: "100%",
+                src:
+                  "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+                alt: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-3" }, [
+            _c("img", {
+              attrs: {
+                width: "100%",
+                src:
+                  "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+                alt: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-3" }, [
+            _c("img", {
+              attrs: {
+                width: "100%",
+                src:
+                  "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+                alt: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-3" }, [
+            _c("img", {
+              attrs: {
+                width: "100%",
+                src:
+                  "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+                alt: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-3" }, [
+            _c("img", {
+              attrs: {
+                width: "100%",
+                src:
+                  "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+                alt: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-3" }, [
+            _c("img", {
+              attrs: {
+                width: "100%",
+                src:
+                  "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+                alt: ""
+              }
+            })
+          ])
         ])
       ])
     ])
-  ])
-}
-var staticRenderFns = []
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "container-fluid" }, [
+      _c("h2", { staticClass: "title-menu" }, [
+        _c("i", [_vm._v("Sản phẩm thực hiện")])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-4" }, [
+          _c("img", {
+            attrs: {
+              width: "100%",
+              src:
+                "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+              alt: ""
+            }
+          }),
+          _vm._v(" "),
+          _c("h4", { staticClass: "text-center" }, [_vm._v("Toninhland.VN")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-4" }, [
+          _c("img", {
+            attrs: {
+              width: "100%",
+              src:
+                "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+              alt: ""
+            }
+          }),
+          _vm._v(" "),
+          _c("h4", { staticClass: "text-center" }, [_vm._v("Toninhland.VN")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-4" }, [
+          _c("img", {
+            attrs: {
+              width: "100%",
+              src:
+                "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+              alt: ""
+            }
+          }),
+          _vm._v(" "),
+          _c("h4", { staticClass: "text-center" }, [_vm._v("Toninhland.VN")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-4" }, [
+          _c("img", {
+            attrs: {
+              width: "100%",
+              src:
+                "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+              alt: ""
+            }
+          }),
+          _vm._v(" "),
+          _c("h4", { staticClass: "text-center" }, [_vm._v("Toninhland.VN")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-4" }, [
+          _c("img", {
+            attrs: {
+              width: "100%",
+              src:
+                "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+              alt: ""
+            }
+          }),
+          _vm._v(" "),
+          _c("h4", { staticClass: "text-center" }, [_vm._v("Toninhland.VN")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-4" }, [
+          _c("img", {
+            attrs: {
+              width: "100%",
+              src:
+                "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+              alt: ""
+            }
+          }),
+          _vm._v(" "),
+          _c("h4", { staticClass: "text-center" }, [_vm._v("Toninhland.VN")])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "container-fluid mainSection" }, [
+      _c("h2", { staticClass: "title-menu" }, [
+        _c("i", [_vm._v("Bài viết và chia sẻ")])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-3" }, [
+          _c("div", { staticClass: "sidebar-menu" }, [
+            _c(
+              "ul",
+              {
+                staticClass:
+                  "nav nav-pills nav-stacked category-menu bootstrapious"
+              },
+              [
+                _c("li", [
+                  _c("a", { attrs: { href: "/bootstrap" } }, [
+                    _vm._v("Bootstrap")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "/tutorials" } }, [
+                    _vm._v("Tutorials")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "/collections" } }, [
+                    _vm._v("Collections")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "/bootstrapious" } }, [
+                    _vm._v("Bootstrapious")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "/psd" } }, [_vm._v("PSD")])
+                ])
+              ]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-md-6" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col" }, [
+                  _c("img", {
+                    attrs: {
+                      width: "100%",
+                      src:
+                        "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+                      alt: ""
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col" }, [
+                  _c("h3", [_vm._v("bài viết Danh mục bài viết")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Danh mụviết Danh mục bài c bài viết Danh mục bài viết"
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-6" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col" }, [
+                  _c("img", {
+                    attrs: {
+                      width: "100%",
+                      src:
+                        "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+                      alt: ""
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col" }, [
+                  _c("h3", [_vm._v("bài viết Danh mục bài viết")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Danh mụviết Danh mục bài c bài viết Danh mục bài viết"
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-6" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col" }, [
+                  _c("img", {
+                    attrs: {
+                      width: "100%",
+                      src:
+                        "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+                      alt: ""
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col" }, [
+                  _c("h3", [_vm._v("bài viết Danh mục bài viết")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Danh mụviết Danh mục bài c bài viết Danh mục bài viết"
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-6" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col" }, [
+                  _c("img", {
+                    attrs: {
+                      width: "100%",
+                      src:
+                        "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+                      alt: ""
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col" }, [
+                  _c("h3", [_vm._v("bài viết Danh mục bài viết")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Danh mụviết Danh mục bài c bài viết Danh mục bài viết"
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
