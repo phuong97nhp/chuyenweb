@@ -2175,12 +2175,142 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "ViewHome",
   data: function data() {
     return {
-      title: "Giới thiệu về chuyen WEB",
-      link: "bai-viet"
+      title: "Giới thiệu.",
+      link: "https://fb.com/phuong97nhp"
     };
   },
   metaInfo: {
@@ -2265,6 +2395,51 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2281,7 +2456,7 @@ __webpack_require__.r(__webpack_exports__);
     };
   },
   metaInfo: {
-    title: 'Bài Viết'
+    title: "Bài Viết"
   },
   created: function created() {
     this.fetchArticles();
@@ -19980,8 +20155,12 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("section", { staticClass: "container-fluid" }, [
-      _c("div", { staticClass: "row" }, [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("section", { staticClass: "container" }, [
+      _c("div", { staticClass: "row mt-4" }, [
+        _vm._m(1),
+        _vm._v(" "),
         _c("div", { staticClass: "col" }, [
           _c(
             "h2",
@@ -19995,20 +20174,31 @@ var render = function() {
           _vm._v(" "),
           _c("p", [
             _vm._v(
-              "\n          Danh mục bài viết Danh mục bài viết Danh mục bài viết Danh mục bài\n          viếtDanh mục bài viết Danh mục bài viết Danh mục bài viết Danh mục bà\n          i viếtDanh mục bài viết Danh mục bài viết Danh mục bài viết Danh mục bài\n          viếtDanh mục bài viết Danh mục bài viết Danh mục bài viết Danh mục bài\n          viếtDanh mục bài viết Danh mục bài viết Danh mục bài viết Danh mục bài v\n          iếtDanh mục bài viết Danh mục bài viết Danh mục bài viết Danh mục bài vi\n          ếtDanh mục bài viết Danh mục bài viết Danh mục bài viết Danh mục bài viết\n        "
+              "\n\n          Chúng tôi hoạt động dựa trên tiêu chí lấy niềm tin, sự hài lòng của khách truy cập làm tiền\n          đề phát triển. Bằng chứng cho một website chia sẽ kiến thức lập trình và các hoạt hỗ trợ người\n          dùng các tính năng hoạt động. Chúng tôi đã phát triển và tham giác dự án website vừa và nhỏ hỗ trợ\n          người dùng một thân thiện nhất trong trải nghiệm.\n        "
             )
           ])
-        ]),
-        _vm._v(" "),
-        _vm._m(0)
+        ])
       ])
     ]),
     _vm._v(" "),
-    _vm._m(1),
-    _vm._v(" "),
     _vm._m(2),
     _vm._v(" "),
-    _vm._m(3)
+    _vm._m(3),
+    _vm._v(" "),
+    _c(
+      "section",
+      { staticClass: "container-fluid mainSection" },
+      [
+        _c("router-link", { attrs: { to: _vm.url() } }, [
+          _c("h2", { staticClass: "title-menu" }, [
+            _c("i", [_vm._v(_vm._s(_vm.title))])
+          ])
+        ]),
+        _vm._v(" "),
+        _vm._m(4)
+      ],
+      1
+    )
   ])
 }
 var staticRenderFns = [
@@ -20016,14 +20206,28 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-5" }, [
+    return _c(
+      "section",
+      { staticClass: "container-fluid", attrs: { id: "mainHeaderBanner" } },
+      [
+        _c("img", {
+          attrs: { id: "logo", src: "assets/images/logo.svg", alt: "ChuyenWEB" }
+        }),
+        _vm._v(" "),
+        _c("h2", [
+          _vm._v("\n      Dịch vụ\n      "),
+          _c("span", { staticClass: "element" })
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-3" }, [
       _c("img", {
-        attrs: {
-          width: "100%",
-          src:
-            "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
-          alt: ""
-        }
+        attrs: { width: "100%", src: "assets/images/avatar.jpg", alt: "" }
       })
     ])
   },
@@ -20031,188 +20235,138 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "container-fluid" }, [
+    return _c("section", { staticClass: "container-fluid mainSection" }, [
       _c("h2", { staticClass: "title-menu" }, [_c("i", [_vm._v("Công nghệ")])]),
       _vm._v(" "),
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-md-3" }, [
-            _c("img", {
-              attrs: {
-                width: "100%",
-                src:
-                  "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
-                alt: ""
-              }
-            })
+          _c("div", { staticClass: "col-md-3 my-4" }, [
+            _c("div", { staticClass: "flip-box my-4" }, [
+              _c("div", { staticClass: "flip-box-inner" }, [
+                _c("div", { staticClass: "flip-box-front" }, [
+                  _c("i", { staticClass: "fab fa-html5 icon-flip-tech" })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "flip-box-back" }, [
+                  _c("div", { staticClass: "flip-box-back-perent" }, [
+                    _c("h4", [_vm._v("HTML 5")])
+                  ])
+                ])
+              ])
+            ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-3" }, [
-            _c("img", {
-              attrs: {
-                width: "100%",
-                src:
-                  "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
-                alt: ""
-              }
-            })
+          _c("div", { staticClass: "col-md-3 my-4" }, [
+            _c("div", { staticClass: "flip-box my-4" }, [
+              _c("div", { staticClass: "flip-box-inner" }, [
+                _c("div", { staticClass: "flip-box-front" }, [
+                  _c("i", { staticClass: "fab fa-css3-alt icon-flip-tech" })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "flip-box-back" }, [
+                  _c("div", { staticClass: "flip-box-back-perent" }, [
+                    _c("h4", [_vm._v("CSS 3")])
+                  ])
+                ])
+              ])
+            ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-3" }, [
-            _c("img", {
-              attrs: {
-                width: "100%",
-                src:
-                  "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
-                alt: ""
-              }
-            })
+          _c("div", { staticClass: "col-md-3 my-4" }, [
+            _c("div", { staticClass: "flip-box my-4" }, [
+              _c("div", { staticClass: "flip-box-inner" }, [
+                _c("div", { staticClass: "flip-box-front" }, [
+                  _c("i", { staticClass: "fab fa-vuejs icon-flip-tech" })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "flip-box-back" }, [
+                  _c("div", { staticClass: "flip-box-back-perent" }, [
+                    _c("h4", [_vm._v("Vue JS")])
+                  ])
+                ])
+              ])
+            ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-3" }, [
-            _c("img", {
-              attrs: {
-                width: "100%",
-                src:
-                  "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
-                alt: ""
-              }
-            })
+          _c("div", { staticClass: "col-md-3 my-4" }, [
+            _c("div", { staticClass: "flip-box my-4" }, [
+              _c("div", { staticClass: "flip-box-inner" }, [
+                _c("div", { staticClass: "flip-box-front" }, [
+                  _c("i", { staticClass: "fab fa-js icon-flip-tech" })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "flip-box-back" }, [
+                  _c("div", { staticClass: "flip-box-back-perent" }, [
+                    _c("h4", [_vm._v("Script")])
+                  ])
+                ])
+              ])
+            ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-3" }, [
-            _c("img", {
-              attrs: {
-                width: "100%",
-                src:
-                  "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
-                alt: ""
-              }
-            })
+          _c("div", { staticClass: "col-md-3 my-4" }, [
+            _c("div", { staticClass: "flip-box my-4" }, [
+              _c("div", { staticClass: "flip-box-inner" }, [
+                _c("div", { staticClass: "flip-box-front" }, [
+                  _c("i", { staticClass: "fab fa-wordpress icon-flip-tech" })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "flip-box-back" }, [
+                  _c("div", { staticClass: "flip-box-back-perent" }, [
+                    _c("h4", [_vm._v("Wordpress")])
+                  ])
+                ])
+              ])
+            ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-3" }, [
-            _c("img", {
-              attrs: {
-                width: "100%",
-                src:
-                  "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
-                alt: ""
-              }
-            })
+          _c("div", { staticClass: "col-md-3 my-4" }, [
+            _c("div", { staticClass: "flip-box my-4" }, [
+              _c("div", { staticClass: "flip-box-inner" }, [
+                _c("div", { staticClass: "flip-box-front" }, [
+                  _c("i", { staticClass: "fab fa-bootstrap icon-flip-tech" })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "flip-box-back" }, [
+                  _c("div", { staticClass: "flip-box-back-perent" }, [
+                    _c("h4", [_vm._v("Bootstrap")])
+                  ])
+                ])
+              ])
+            ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-3" }, [
-            _c("img", {
-              attrs: {
-                width: "100%",
-                src:
-                  "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
-                alt: ""
-              }
-            })
+          _c("div", { staticClass: "col-md-3 my-4" }, [
+            _c("div", { staticClass: "flip-box my-4" }, [
+              _c("div", { staticClass: "flip-box-inner" }, [
+                _c("div", { staticClass: "flip-box-front" }, [
+                  _c("i", { staticClass: "fab fa-php icon-flip-tech" })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "flip-box-back" }, [
+                  _c("div", { staticClass: "flip-box-back-perent" }, [
+                    _c("h4", [_vm._v("PhP")])
+                  ])
+                ])
+              ])
+            ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-3" }, [
-            _c("img", {
-              attrs: {
-                width: "100%",
-                src:
-                  "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
-                alt: ""
-              }
-            })
+          _c("div", { staticClass: "col-md-3 my-4" }, [
+            _c("div", { staticClass: "flip-box my-4" }, [
+              _c("div", { staticClass: "flip-box-inner" }, [
+                _c("div", { staticClass: "flip-box-front" }, [
+                  _c("i", { staticClass: "fab fa-info icon-flip-tech" })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "flip-box-back" }, [
+                  _c("div", { staticClass: "flip-box-back-perent" }, [
+                    _c("h4", [_vm._v("Thêm")])
+                  ])
+                ])
+              ])
+            ])
           ])
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "container-fluid" }, [
-      _c("h2", { staticClass: "title-menu" }, [
-        _c("i", [_vm._v("Sản phẩm thực hiện")])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-4" }, [
-          _c("img", {
-            attrs: {
-              width: "100%",
-              src:
-                "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
-              alt: ""
-            }
-          }),
-          _vm._v(" "),
-          _c("h4", { staticClass: "text-center" }, [_vm._v("Toninhland.VN")])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-4" }, [
-          _c("img", {
-            attrs: {
-              width: "100%",
-              src:
-                "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
-              alt: ""
-            }
-          }),
-          _vm._v(" "),
-          _c("h4", { staticClass: "text-center" }, [_vm._v("Toninhland.VN")])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-4" }, [
-          _c("img", {
-            attrs: {
-              width: "100%",
-              src:
-                "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
-              alt: ""
-            }
-          }),
-          _vm._v(" "),
-          _c("h4", { staticClass: "text-center" }, [_vm._v("Toninhland.VN")])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-4" }, [
-          _c("img", {
-            attrs: {
-              width: "100%",
-              src:
-                "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
-              alt: ""
-            }
-          }),
-          _vm._v(" "),
-          _c("h4", { staticClass: "text-center" }, [_vm._v("Toninhland.VN")])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-4" }, [
-          _c("img", {
-            attrs: {
-              width: "100%",
-              src:
-                "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
-              alt: ""
-            }
-          }),
-          _vm._v(" "),
-          _c("h4", { staticClass: "text-center" }, [_vm._v("Toninhland.VN")])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-4" }, [
-          _c("img", {
-            attrs: {
-              width: "100%",
-              src:
-                "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
-              alt: ""
-            }
-          }),
-          _vm._v(" "),
-          _c("h4", { staticClass: "text-center" }, [_vm._v("Toninhland.VN")])
         ])
       ])
     ])
@@ -20223,56 +20377,164 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("section", { staticClass: "container-fluid mainSection" }, [
       _c("h2", { staticClass: "title-menu" }, [
-        _c("i", [_vm._v("Bài viết và chia sẻ")])
+        _c("i", [_vm._v("Sản phẩm phát triển")])
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-3" }, [
-          _c("div", { staticClass: "sidebar-menu" }, [
-            _c(
-              "ul",
-              {
-                staticClass:
-                  "nav nav-pills nav-stacked category-menu bootstrapious"
-              },
-              [
-                _c("li", [
-                  _c("a", { attrs: { href: "/bootstrap" } }, [
-                    _vm._v("Bootstrap")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "/tutorials" } }, [
-                    _vm._v("Tutorials")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "/collections" } }, [
-                    _vm._v("Collections")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "/bootstrapious" } }, [
-                    _vm._v("Bootstrapious")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "/psd" } }, [_vm._v("PSD")])
-                ])
-              ]
-            )
-          ])
+        _c("div", { staticClass: "col-md-4" }, [
+          _c("img", {
+            attrs: {
+              width: "100%",
+              src:
+                "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+              alt: ""
+            }
+          }),
+          _vm._v(" "),
+          _c("h4", { staticClass: "text-center" }, [_vm._v("Toninhland.VN")])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col" }, [
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-md-6" }, [
-              _c("div", { staticClass: "row" }, [
-                _c("div", { staticClass: "col" }, [
+        _c("div", { staticClass: "col-md-4" }, [
+          _c("img", {
+            attrs: {
+              width: "100%",
+              src:
+                "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+              alt: ""
+            }
+          }),
+          _vm._v(" "),
+          _c("h4", { staticClass: "text-center" }, [_vm._v("Toninhland.VN")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-4" }, [
+          _c("img", {
+            attrs: {
+              width: "100%",
+              src:
+                "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+              alt: ""
+            }
+          }),
+          _vm._v(" "),
+          _c("h4", { staticClass: "text-center" }, [_vm._v("Toninhland.VN")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-4" }, [
+          _c("img", {
+            attrs: {
+              width: "100%",
+              src:
+                "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+              alt: ""
+            }
+          }),
+          _vm._v(" "),
+          _c("h4", { staticClass: "text-center" }, [_vm._v("Toninhland.VN")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-4" }, [
+          _c("img", {
+            attrs: {
+              width: "100%",
+              src:
+                "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+              alt: ""
+            }
+          }),
+          _vm._v(" "),
+          _c("h4", { staticClass: "text-center" }, [_vm._v("Toninhland.VN")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-4" }, [
+          _c("img", {
+            attrs: {
+              width: "100%",
+              src:
+                "https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg",
+              alt: ""
+            }
+          }),
+          _vm._v(" "),
+          _c("h4", { staticClass: "text-center" }, [_vm._v("Toninhland.VN")])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-3" }, [
+        _c("div", { staticClass: "sidebar-menu" }, [
+          _c(
+            "ul",
+            {
+              staticClass:
+                "nav nav-pills nav-stacked category-menu bootstrapious"
+            },
+            [
+              _c("li", [
+                _c("a", { attrs: { href: "/bootstrap" } }, [
+                  _vm._v("Bootstrap")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c("a", { attrs: { href: "/tutorials" } }, [
+                  _vm._v("Tutorials")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c("a", { attrs: { href: "/collections" } }, [
+                  _vm._v("Collections")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c("a", { attrs: { href: "/bootstrapious" } }, [
+                  _vm._v("Bootstrapious")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", [_c("a", { attrs: { href: "/psd" } }, [_vm._v("PSD")])])
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-6" }, [
+            _c("div", { staticClass: "item-post" }, [
+              _c("div", { staticClass: "sub-item-content" }, [
+                _c("span", { staticClass: "item-cat" }, [_vm._v("Category")]),
+                _vm._v(" "),
+                _c("a", { attrs: { href: "#" } }, [
+                  _c("h3", { staticClass: "item-title" }, [
+                    _vm._v("Bài giới thiệu vè php")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("span", { staticClass: "item-date" }, [
+                  _vm._v("Ngày 19 tháng 3 năm 2020")
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "item-content" }, [
+                  _vm._v(
+                    "Php là ngôn ngữ lập trình mã nguồn mở, hiện thời đã có verson trên 7."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("a", { staticClass: "item-more", attrs: { href: "#" } }, [
+                  _vm._v("Đọc thêm")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "sub-item-img" }, [
+                _c("a", { attrs: { href: "#" } }, [
                   _c("img", {
                     attrs: {
                       width: "100%",
@@ -20281,23 +20543,39 @@ var staticRenderFns = [
                       alt: ""
                     }
                   })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col" }, [
-                  _c("h3", [_vm._v("bài viết Danh mục bài viết")]),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "Danh mụviết Danh mục bài c bài viết Danh mục bài viết"
-                    )
-                  ])
                 ])
               ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-md-6" }, [
-              _c("div", { staticClass: "row" }, [
-                _c("div", { staticClass: "col" }, [
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-6" }, [
+            _c("div", { staticClass: "item-post" }, [
+              _c("div", { staticClass: "sub-item-content" }, [
+                _c("span", { staticClass: "item-cat" }, [_vm._v("Category")]),
+                _vm._v(" "),
+                _c("a", { attrs: { href: "#" } }, [
+                  _c("h3", { staticClass: "item-title" }, [
+                    _vm._v("Bài giới thiệu vè php")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("span", { staticClass: "item-date" }, [
+                  _vm._v("Ngày 19 tháng 3 năm 2020")
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "item-content" }, [
+                  _vm._v(
+                    "Php là ngôn ngữ lập trình mã nguồn mở, hiện thời đã có verson trên 7."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("a", { staticClass: "item-more", attrs: { href: "#" } }, [
+                  _vm._v("Đọc thêm")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "sub-item-img" }, [
+                _c("a", { attrs: { href: "#" } }, [
                   _c("img", {
                     attrs: {
                       width: "100%",
@@ -20306,23 +20584,39 @@ var staticRenderFns = [
                       alt: ""
                     }
                   })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col" }, [
-                  _c("h3", [_vm._v("bài viết Danh mục bài viết")]),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "Danh mụviết Danh mục bài c bài viết Danh mục bài viết"
-                    )
-                  ])
                 ])
               ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-md-6" }, [
-              _c("div", { staticClass: "row" }, [
-                _c("div", { staticClass: "col" }, [
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-6" }, [
+            _c("div", { staticClass: "item-post" }, [
+              _c("div", { staticClass: "sub-item-content" }, [
+                _c("span", { staticClass: "item-cat" }, [_vm._v("Category")]),
+                _vm._v(" "),
+                _c("a", { attrs: { href: "#" } }, [
+                  _c("h3", { staticClass: "item-title" }, [
+                    _vm._v("Bài giới thiệu vè php")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("span", { staticClass: "item-date" }, [
+                  _vm._v("Ngày 19 tháng 3 năm 2020")
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "item-content" }, [
+                  _vm._v(
+                    "Php là ngôn ngữ lập trình mã nguồn mở, hiện thời đã có verson trên 7."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("a", { staticClass: "item-more", attrs: { href: "#" } }, [
+                  _vm._v("Đọc thêm")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "sub-item-img" }, [
+                _c("a", { attrs: { href: "#" } }, [
                   _c("img", {
                     attrs: {
                       width: "100%",
@@ -20331,23 +20625,39 @@ var staticRenderFns = [
                       alt: ""
                     }
                   })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col" }, [
-                  _c("h3", [_vm._v("bài viết Danh mục bài viết")]),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "Danh mụviết Danh mục bài c bài viết Danh mục bài viết"
-                    )
-                  ])
                 ])
               ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-md-6" }, [
-              _c("div", { staticClass: "row" }, [
-                _c("div", { staticClass: "col" }, [
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-6" }, [
+            _c("div", { staticClass: "item-post" }, [
+              _c("div", { staticClass: "sub-item-content" }, [
+                _c("span", { staticClass: "item-cat" }, [_vm._v("Category")]),
+                _vm._v(" "),
+                _c("a", { attrs: { href: "#" } }, [
+                  _c("h3", { staticClass: "item-title" }, [
+                    _vm._v("Bài giới thiệu vè php")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("span", { staticClass: "item-date" }, [
+                  _vm._v("Ngày 19 tháng 3 năm 2020")
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "item-content" }, [
+                  _vm._v(
+                    "Php là ngôn ngữ lập trình mã nguồn mở, hiện thời đã có verson trên 7."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("a", { staticClass: "item-more", attrs: { href: "#" } }, [
+                  _vm._v("Đọc thêm")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "sub-item-img" }, [
+                _c("a", { attrs: { href: "#" } }, [
                   _c("img", {
                     attrs: {
                       width: "100%",
@@ -20356,16 +20666,6 @@ var staticRenderFns = [
                       alt: ""
                     }
                   })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col" }, [
-                  _c("h3", [_vm._v("bài viết Danh mục bài viết")]),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "Danh mụviết Danh mục bài c bài viết Danh mục bài viết"
-                    )
-                  ])
                 ])
               ])
             ])
@@ -20424,29 +20724,130 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { staticClass: "container" },
-    _vm._l(_vm.articles, function(article) {
-      return _c(
-        "div",
-        { key: article.id, staticClass: "col-md-4 my-2" },
-        [
-          _c("router-link", { attrs: { to: article.post_slug } }, [
-            _c("h3", [_vm._v(_vm._s(article.post_title))]),
-            _vm._v(" "),
-            _c("img", { attrs: { src: article.post_img } }),
-            _vm._v(" "),
-            _c("p", [_vm._v(_vm._s(article.post_metakey))])
-          ])
-        ],
-        1
-      )
-    }),
-    0
-  )
+  return _c("div", [
+    _c("section", { staticClass: "container-fluid mainSection" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _vm._m(1),
+        _vm._v(" "),
+        _c("div", { staticClass: "col" }, [
+          _c(
+            "div",
+            { staticClass: "row" },
+            _vm._l(_vm.articles, function(article) {
+              return _c("div", { key: article.id, staticClass: "col-md-6" }, [
+                _c("div", { staticClass: "item-post" }, [
+                  _c(
+                    "div",
+                    { staticClass: "sub-item-content" },
+                    [
+                      _c("span", { staticClass: "item-cat" }, [
+                        _vm._v("Category")
+                      ]),
+                      _vm._v(" "),
+                      _c("router-link", { attrs: { to: article.post_slug } }, [
+                        _c("h3", { staticClass: "item-title" }, [
+                          _vm._v(_vm._s(article.post_title))
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("span", { staticClass: "item-date" }, [
+                        _vm._v("Ngày 19 tháng 3 năm 2020")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "item-content" }, [
+                        _vm._v(
+                          "Php là ngôn ngữ lập trình mã nguồn mở, hiện thời đã có verson trên 7."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "router-link",
+                        {
+                          staticClass: "item-more",
+                          attrs: { to: article.post_slug }
+                        },
+                        [_vm._v("Đọc thêm")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "sub-item-img" },
+                    [
+                      _c("router-link", { attrs: { to: article.post_slug } }, [
+                        _c("img", {
+                          attrs: {
+                            width: "100%",
+                            src: article.post_img,
+                            alt: ""
+                          }
+                        })
+                      ])
+                    ],
+                    1
+                  )
+                ])
+              ])
+            }),
+            0
+          )
+        ])
+      ])
+    ])
+  ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h2", { staticClass: "title-menu" }, [
+      _c("i", [_vm._v("Bài viết và chia sẻ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-3" }, [
+      _c("div", { staticClass: "sidebar-menu" }, [
+        _c(
+          "ul",
+          {
+            staticClass: "nav nav-pills nav-stacked category-menu bootstrapious"
+          },
+          [
+            _c("li", [
+              _c("a", { attrs: { href: "/bootstrap" } }, [_vm._v("Bootstrap")])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("a", { attrs: { href: "/tutorials" } }, [_vm._v("Tutorials")])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("a", { attrs: { href: "/collections" } }, [
+                _vm._v("Collections")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("a", { attrs: { href: "/bootstrapious" } }, [
+                _vm._v("Bootstrapious")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", [_c("a", { attrs: { href: "/psd" } }, [_vm._v("PSD")])])
+          ]
+        )
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 

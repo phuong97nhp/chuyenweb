@@ -12,7 +12,25 @@
     <link href="{{asset('assets/bootstrap/css/popper.min.css')}}" rel="stylesheet" type="text/css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <link href="{{asset('assets/fontawesome/css/all.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
     <style>
+    * {
+        font-family: 'Lora', serif;
+    }
+
+    p {
+        font-family: 'Lora', serif;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    nav li a {
+        font-family: 'Lora', serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff;
+    }
+
     a {
         color: #20809f;
         text-decoration: none;
@@ -24,7 +42,7 @@
     }
 
     #mainHeader {
-        background-color: #fffffff1;
+        background-color: #ffffff4a;
         box-shadow: 1px 0px 5px 0px;
         z-index: 99999;
         top: 0;
@@ -43,8 +61,8 @@
     }
 
     #mainContainer {
-        margin-top: 70px;
-        min-height: 500px;
+        /*margin-top: 70px;
+        min-height: 500px;*/
     }
 
     .icon-header {
@@ -75,6 +93,10 @@
         border-bottom: 2px #20809f solid;
     }
 
+    .sidebar-menu {
+        background-color: azure;
+    }
+
 
     .title-menu i {
         background-color: #20809f;
@@ -85,13 +107,206 @@
     }
 
     .mainSection {
-        margin: 10px 0;
+        margin: 50px 0;
     }
 
     .button-call i {
         color: #20809f;
         font-weight: 600;
         padding: 1px;
+    }
+
+    .sub-item-content {
+        width: 65%;
+        padding: 7px;
+    }
+
+    .sub-item-img {
+        width: 35%;
+        background-color: #f9f9f9;
+    }
+
+    .item-date {
+        font-size: 13px;
+        line-height: 8px;
+        color: #ffc400;
+    }
+
+    .item-title {
+        font-size: 24px;
+        line-height: 20px;
+        color: #20809f;
+        margin-bottom: auto;
+    }
+
+    .item-post {
+        display: flex;
+        border: 1px #ddd solid;
+        background-color: azure;
+        margin: 0 0 5px;
+    }
+
+    .item-content {
+        font-size: 15px;
+        line-height: normal;
+    }
+
+    .item-more {
+        float: right;
+        font-weight: 600;
+    }
+
+    .item-cat {
+        font-size: 13px;
+        font-weight: 700;
+        color: #ffc400;
+    }
+
+    .sub-item-img img {
+        width: 100%;
+    }
+
+    .flip-box {
+        background-color: transparent;
+        width: 190px;
+        height: 190px;
+        margin: 0 auto;
+        perspective: 1000px;
+    }
+
+    .flip-box-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+
+    .flip-box:hover .flip-box-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-box-front,
+    .flip-box-back,
+    .flip-box-back-perent {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    .flip-box-front {
+        transform: rotate(45deg);
+        border: 4px red solid;
+        color: black;
+    }
+
+    .flip-box-back {
+        transform: rotateY(180deg);
+    }
+
+    .flip-box-back-perent {
+        border: 5px red solid;
+        transform: rotate(45deg);
+    }
+
+
+    .icon-flip-tech {
+        font-size: 93px;
+        transform: rotate(-45deg);
+        top: 24%;
+        color: #20809f;
+        position: absolute;
+        left: 25%;
+    }
+
+    .text-flip-tech {
+        font-size: 20px;
+        top: 60%;
+        color: #20809f;
+        position: absolute;
+        left: 20%;
+    }
+
+    .flip-box-back h4 {
+        color: #20809f;
+        transform: rotate(-45deg);
+        position: absolute;
+        top: 40%;
+        right: 19%;
+        font-size: 30px;
+    }
+
+    #mainHeaderBanner {
+        background-image: url('assets/images/banner1.png');
+        height: 700px;
+    }
+
+    #mainHeaderBanner h2 {
+        margin: 0;
+        font-size: 25px;
+        position: absolute;
+        right: 20px;
+        top: 60%;
+    }
+
+    #mainHeaderBanner img {
+        margin: 0;
+        width: 36%;
+        position: absolute;
+        right: 20px;
+        top: 40%;
+    }
+
+    .typed-cursor {
+        opacity: 1;
+        -webkit-animation: blink 0.7s infinite;
+        -moz-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite;
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @-webkit-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @-moz-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
     }
     </style>
 </head>
@@ -134,15 +349,7 @@
                 </div>
                 <div class="col-md-3 text-right">
                     <div class="rounded my-2">
-                        <a href="#">
-                            <i class="fab fa-youtube-square icon-header"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fas fa-envelope icon-header"></i>
-                        </a>
-                        <a href="https://fb.com/phuong97nhp" target="_back">
-                            <i class="fab fa-facebook-square icon-header"></i>
-                        </a>
+                        <a href="tell:0869847865">0869847865</a>
                     </div>
                 </div>
             </div>
@@ -162,6 +369,15 @@
                     <i style=" background-color: #fff; ">Gọi ngay:</i>
                     <i>086 984 7865</i>
                 </a>
+                <a href="#">
+                    <i class="fab fa-youtube-square icon-header"></i>
+                </a>
+                <a href="#">
+                    <i class="fas fa-envelope icon-header"></i>
+                </a>
+                <a href="https://fb.com/phuong97nhp" target="_back">
+                    <i class="fab fa-facebook-square icon-header"></i>
+                </a>
             </div>
         </div>
     </footer>
@@ -169,6 +385,20 @@
     <script src="{{asset('assets/jquery/jquery-3.4.1.min.js')}}"></script>
     <script src="{{asset('assets/bootstrap/js/bootstrap.min.js')}}"></script>
     <script src="{{asset('assets/fontawesome/js/all.min.js')}}"></script>
+    <script src="{{asset('assets/jquery/typed.js')}}"></script>
+    <script>
+    $(function() {
+        $(".element").typed({
+            strings: ["trao đổi kiến thức.", "thiết kế và xây dựng website chất lượng."],
+            typeSpeed: 0
+        });
+    });
+
+    $(document).ready(function() {
+        console.log($(body).height());
+    })
+    </script>
+
 </body>
 
 </html>
