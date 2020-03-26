@@ -18,7 +18,6 @@
             <router-link :to="url()">{{title}}</router-link>
           </h2>
           <p>
-
             Chúng tôi hoạt động dựa trên tiêu chí lấy niềm tin, sự hài lòng của khách truy cập làm tiền
             đề phát triển. Bằng chứng cho một website chia sẽ kiến thức lập trình và các hoạt hỗ trợ người
             dùng các tính năng hoạt động. Chúng tôi đã phát triển và tham giác dự án website vừa và nhỏ hỗ trợ
@@ -33,7 +32,6 @@
       </h2>
       <div class="container">
         <div class="row">
-          
           <!-- flip box -->
           <div class="col-md-3 my-4">
             <div class="flip-box my-4">
@@ -50,10 +48,9 @@
             </div>
           </div>
           <!-- end flip box -->
-          
-          
+
           <!-- flip box -->
-           <div class="col-md-3 my-4">
+          <div class="col-md-3 my-4">
             <div class="flip-box my-4">
               <div class="flip-box-inner">
                 <div class="flip-box-front">
@@ -68,8 +65,7 @@
             </div>
           </div>
           <!-- end flip box -->
-          
-          
+
           <!-- flip box -->
           <div class="col-md-3 my-4">
             <div class="flip-box my-4">
@@ -86,8 +82,7 @@
             </div>
           </div>
           <!-- end flip box -->
-          
-          
+
           <!-- flip box -->
           <div class="col-md-3 my-4">
             <div class="flip-box my-4">
@@ -104,8 +99,7 @@
             </div>
           </div>
           <!-- end flip box -->
-          
-          
+
           <!-- flip box -->
           <div class="col-md-3 my-4">
             <div class="flip-box my-4">
@@ -122,8 +116,7 @@
             </div>
           </div>
           <!-- end flip box -->
-          
-          
+
           <!-- flip box -->
           <div class="col-md-3 my-4">
             <div class="flip-box my-4">
@@ -140,8 +133,7 @@
             </div>
           </div>
           <!-- end flip box -->
-          
-          
+
           <!-- flip box -->
           <div class="col-md-3 my-4">
             <div class="flip-box my-4">
@@ -158,8 +150,7 @@
             </div>
           </div>
           <!-- end flip box -->
-          
-          
+
           <!-- flip box -->
           <div class="col-md-3 my-4">
             <div class="flip-box my-4">
@@ -176,7 +167,6 @@
             </div>
           </div>
           <!-- end flip box -->
-          
         </div>
       </div>
     </section>
@@ -185,54 +175,67 @@
         <i>Sản phẩm phát triển</i>
       </h2>
       <div class="row">
+
+        <!-- item product -->
         <div class="col-md-4">
-          <img
-            width="100%"
-            src="https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg"
-            alt
-          />
-          <h4 class="text-center">Toninhland.VN</h4>
+          <div class="product-detail">
+          <img class="show-img-product" src="assets/images/projects/toninhland.png" alt />
+          <h4 class="text-name-domain-project">Toninhland.VN</h4>
+          <a class="button-more-product" href="toninhland.vn">Xem</a>
+          </div>
         </div>
+        <!-- end item product -->
+
+        <!-- item product -->
         <div class="col-md-4">
-          <img
-            width="100%"
-            src="https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg"
-            alt
-          />
-          <h4 class="text-center">Toninhland.VN</h4>
+          <div class="product-detail">
+          <img class="show-img-product" src="assets/images/projects/toninhland.png" alt />
+          <h4 class="text-name-domain-project">Toninhland.VN</h4>
+          <a class="button-more-product" href="toninhland.vn">Xem</a>
+          </div>
         </div>
+        <!-- end item product -->
+
+        <!-- item product -->
         <div class="col-md-4">
-          <img
-            width="100%"
-            src="https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg"
-            alt
-          />
-          <h4 class="text-center">Toninhland.VN</h4>
+          <div class="product-detail">
+          <img class="show-img-product" src="assets/images/projects/toninhland.png" alt />
+          <h4 class="text-name-domain-project">Toninhland.VN</h4>
+          <a class="button-more-product" href="toninhland.vn">Xem</a>
+          </div>
         </div>
+        <!-- end item product -->
+
+        <!-- item product -->
         <div class="col-md-4">
-          <img
-            width="100%"
-            src="https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg"
-            alt
-          />
-          <h4 class="text-center">Toninhland.VN</h4>
+          <div class="product-detail">
+          <img class="show-img-product" src="assets/images/projects/toninhland.png" alt />
+          <h4 class="text-name-domain-project">Toninhland.VN</h4>
+          <a class="button-more-product" href="toninhland.vn">Xem</a>
+          </div>
         </div>
+        <!-- end item product -->
+
+        <!-- item product -->
         <div class="col-md-4">
-          <img
-            width="100%"
-            src="https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg"
-            alt
-          />
-          <h4 class="text-center">Toninhland.VN</h4>
+          <div class="product-detail">
+          <img class="show-img-product" src="assets/images/projects/toninhland.png" alt />
+          <h4 class="text-name-domain-project">Toninhland.VN</h4>
+          <a class="button-more-product" href="toninhland.vn">Xem</a>
+          </div>
         </div>
+        <!-- end item product -->
+
+        <!-- item product -->
         <div class="col-md-4">
-          <img
-            width="100%"
-            src="https://chiasemeohay.com/wp-content/uploads/2018/10/20-bi-quyet-de-chup-hinh-dep-ban-nen-bo-tui-ngay-tu-bay-gio-7.jpg"
-            alt
-          />
-          <h4 class="text-center">Toninhland.VN</h4>
+          <div class="product-detail">
+          <img class="show-img-product" src="assets/images/projects/toninhland.png" alt />
+          <h4 class="text-name-domain-project">Toninhland.VN</h4>
+          <a class="button-more-product" href="toninhland.vn">Xem</a>
+          </div>
         </div>
+        <!-- end item product -->
+
       </div>
     </section>
     <section class="container-fluid mainSection">
@@ -376,7 +379,7 @@ export default {
   data: function() {
     return {
       title: "Giới thiệu.",
-      link: "https://fb.com/phuong97nhp"
+      link: "bai-viet"
     };
   },
   metaInfo: {

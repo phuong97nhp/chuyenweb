@@ -37,12 +37,19 @@
         background-color: transparent;
     }
 
+    .contact-phone {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        border: 1px solid;
+        padding: 6px 28px;
+    }
+
     #logo {
         width: 65%;
     }
 
     #mainHeader {
-        background-color: #ffffff4a;
         box-shadow: 1px 0px 5px 0px;
         z-index: 99999;
         top: 0;
@@ -200,6 +207,7 @@
     .flip-box-front {
         transform: rotate(45deg);
         border: 4px red solid;
+        box-shadow: #423b24 2px 1px 5px;
         color: black;
     }
 
@@ -208,6 +216,7 @@
     }
 
     .flip-box-back-perent {
+        box-shadow: #423b24 2px 1px 5px;
         border: 5px red solid;
         transform: rotate(45deg);
     }
@@ -260,6 +269,14 @@
         top: 40%;
     }
 
+    .back-Ground-Header {
+        background-color: #ffc400;
+    }
+
+    .no-Back-Ground-Header {
+        background-color: #ffffff4a;
+    }
+
     .typed-cursor {
         opacity: 1;
         -webkit-animation: blink 0.7s infinite;
@@ -308,10 +325,95 @@
             opacity: 1;
         }
     }
+
+    #bottom-to-top {
+        position: fixed;
+        bottom: 30px;
+        border-radius: 1px;
+        display: none;
+        right: 30px;
+        z-index: 99999;
+    }
+
+    .show-img-product {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 0 8px;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+        -webkit-transition: all ease-in-out 7.2s;
+        -moz-transition: all ease-in-out 7.2s;
+        -o-transition: all ease-in-out 7.2s;
+        position: absolute;
+        top: 0;
+    }
+
+    .show-img-product:hover {
+        top: 100%;
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+    }
+
+    .text-name-domain-project {
+        z-index: 9999;
+        top: 5px;
+        padding: 3px;
+        left: 5px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        position: absolute;
+        font-size: 15px;
+        color: #20809f;
+        background-color: #ffc400;
+    }
+
+    .button-more-product {
+        width: 70px;
+        height: 47px;
+        background-color: #ffc400;
+        top: 84%;
+        color: #ffffff;
+        left: 84%;
+        position: relative;
+        font-weight: bold;
+        font-size: 19px;
+        padding: 6px;
+        animation: button-more-product 5s 1;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+
+    @keyframes button-more-product {
+        0% {
+            transform: rotate(0deg);
+            left: -30px;
+        }
+
+        100% {
+            transform: rotate(-360deg);
+            left: 84%;
+        }
+    }
+
+    .product-detail {
+        height: 252px;
+        margin: 15px 0;
+        width: 100%;
+        position: relative;
+        border-radius: 5px;
+        -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+    }
     </style>
 </head>
 
 <body>
+    <button id="bottom-to-top" type="button" class="btn btn-info"><i class="fas fa-arrow-up"></i></button>
     <header id="mainHeader">
         <div class="container">
             <div class="row py-1">
@@ -349,7 +451,7 @@
                 </div>
                 <div class="col-md-3 text-right">
                     <div class="rounded my-2">
-                        <a href="tell:0869847865">0869847865</a>
+                        <a class="contact-phone" href="tell:0869847865">Liện hệ: 0869847865</a>
                     </div>
                 </div>
             </div>
@@ -394,9 +496,27 @@
         });
     });
 
+    $(document).on('scroll', function() {
+        var height = $(document).scrollTop();
+        if (height > 20) {
+            // js for header
+            $('#mainHeader').addClass('back-Ground-Header');
+            $('#mainHeader').removeClass('no-Back-Ground-Header');
+            // bottom to top
+            $('#bottom-to-top').css('display', 'block');
+        } else if (height < 20) {
+            $('#mainHeader').removeClass('back-Ground-Header');
+            $('#mainHeader').addClass('no-Back-Ground-Header');
+            $('#bottom-to-top').css('display', 'none');
+        }
+
+    });
+
     $(document).ready(function() {
-        console.log($(body).height());
-    })
+        $('#bottom-to-top').on('click', function() {
+            $(document).scrollTop(0, 4000000);
+        });
+    });
     </script>
 
 </body>
